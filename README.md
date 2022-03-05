@@ -22,3 +22,11 @@ root
 ```
 
 Note that Figures 1, 2, and 4 are not included in this repository, as the Figure 1 was illustrated and Figures 2 and 4 utilize closed source code from Vizgen Inc. to plot some of the images.
+
+To run the notebooks, you will need to have the following Python packages installed:
+- pandas
+- matplotlib
+- numpy
+- anndata
+- scanpy
+- tifffile

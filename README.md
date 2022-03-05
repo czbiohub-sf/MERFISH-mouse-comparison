@@ -3,12 +3,13 @@
 Welcome to the MERFISH mouse comparison study! This repository contains Jupyter notebooks for generating figures for "Comparative analysis of MERFISH spatial transcriptomics with bulk and single-cell RNA sequencing".
 
 # Data
-The processed data to generate the figures are avilable from figshare: LINK. To run the notebooks, make sure that the data folder is in the same directory that this repository is in. See the sample folder structure below:
+The processed data to generate the figures are avilable from figshare: LINK. To run the notebooks, make sure that the data folder is in the same directory that this repository is in. Make sure that all .zip files in RawData/ are unzipped into their respective folders. See the sample folder structure below:
 
 Sample folder structure:
 ```
 root
 ├── data/
+│   ├── RawData/
 │   ├── BulkData/
 │   ├── Images/
 │   ├── SingleCellData/

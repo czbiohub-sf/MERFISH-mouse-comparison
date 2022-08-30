@@ -16,17 +16,27 @@ root
 │   │   ├── raw/
 │   │   ├── annotated/
 │   ├── TabulaMurisSenis/
+│   ├── Visium_public/
 ├── MERFISH-mouse-comparison/
 │   ├── notebooks/
 │   │   ├── figures/
 ```
 
-Note that Figures 1, 2, and 4 are not included in this repository, as the Figure 1 was illustrated and Figures 2 and 4 utilize closed source code from Vizgen Inc. to plot some of the images.
-
 To run the notebooks, you will need to have the following Python packages installed:
 - pandas
 - matplotlib
 - numpy
+- scipy
 - anndata
 - scanpy
+- squidpy
+- scvi
 - tifffile
+- rasterio
+- cv2
+- shapely
+- geopandas
+- tqdm
+- scikit-learn
+
+In addition, the supplementary notebook for Symphony and Harmony integration requires R and the Symphony and Harmony packages to be installed.

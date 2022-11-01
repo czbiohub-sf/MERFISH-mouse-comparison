@@ -3,7 +3,15 @@
 Welcome to the MERFISH mouse comparison study! This repository contains Jupyter notebooks for generating figures for "Comparative analysis of MERFISH spatial transcriptomics with bulk and single-cell RNA sequencing".
 
 # Data
-The processed data to generate the figures are avilable from figshare: https://figshare.com/projects/MERFISH_mouse_comparison_study/134213. The mosaic image .tifs can be downloaded from AWS at s3://czb-tabula-muris-senis/spatial-transcriptomics/MERFISH-data/. To run the notebooks, make sure that the data folder is in the same directory that this repository is in. Make sure that all .zip files in RawData/ are unzipped into their respective folders, and that the symphony .zip is unzipped into the SingleCellData/annotated folder. See the folder structure below:
+
+### Processed data
+The processed data to generate the figures are avilable from figshare: https://figshare.com/projects/MERFISH_mouse_comparison_study/134213.
+
+### Raw data
+The raw images are available on the Tabula Muris Senis Amazon S3 bucket. Since October 2019, Tabula Muris Senis data have been made available to all users free of charge. [AWS has made the data freely available on Amazon S3](https://s3.console.aws.amazon.com/s3/buckets/czb-tabula-muris-senis/spatial-transcriptomics/) so that anyone can download the resource to perform analysis and advance medical discovery without needing to worry about the cost of storing Tabula Muris Senis data or the time required to download it. At this link you can find mosaic .tiffs of the DAPI and cell membrane antibody stains, as well as the raw .dax image files for all fluorescent channels.
+
+### Running the notebooks
+To run the notebooks, make sure that the data folder is in the same directory that this repository is in. Make sure that all .zip files in RawData/ are unzipped into their respective folders, and that the symphony .zip is unzipped into the SingleCellData/annotated folder. See the folder structure below:
 
 Folder structure:
 ```

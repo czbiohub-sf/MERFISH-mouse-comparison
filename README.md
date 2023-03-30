@@ -1,6 +1,6 @@
 # MERFISH-mouse-comparison
 
-Welcome to the MERFISH mouse comparison study! This repository contains Jupyter notebooks for generating figures for "Comparative analysis of MERFISH spatial transcriptomics with bulk and single-cell RNA sequencing".
+Welcome to the MERFISH mouse comparison study! This repository contains Jupyter notebooks for generating figures for "Concordance of MERFISH spatial transcriptomics with bulk and single-cell RNA sequencing," published in Life Science Alliance in 2022 (https://www.life-science-alliance.org/content/6/1/e202201701).
 
 # Data
 
